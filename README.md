@@ -4,22 +4,29 @@
 
 # requirements
 flask
+
 langchain
+
 langchain-openai
+
 python-switchbot
+
 werkzeug
 
 # 사용 방법
 
 ## 1) 빠른 실행
 config.txt 내에 경로 및 API key, IP 등의 환경 설정을 수행
+
 bot_control_server.py 를 실행
 
 ## 2) config.txt 구성 
 config.txt는 다음의 구조로 이루어져 있습니다. 실행환경에 맞게 각 해당되는 값을 따옴표 없이 문자열로 기록합니다.
 
 ※ OpenAI와 SwitchBot의 key는 각각 다음의 정보를 참조합니다.
+
 OpenAI API: https://platform.openai.com/docs/overview
+
 SwitchBot API: https://github.com/OpenWonderLabs/SwitchBotAPI?tab=readme-ov-file#introduction
 
     # Config
@@ -52,4 +59,5 @@ SwitchBot 장비에 따라 수행할 수 있는 명령을 추가하기 위해서
 지원되는 SwitchBot 장비별 명령에 대해서는 다음을 참고합니다.
 
 python-switchbot 문서: https://github.com/jonghwanhyeon/python-switchbot
+
 SwitchBot API 문서: https://github.com/OpenWonderLabs/SwitchBotAPI?tab=readme-ov-file#send-device-control-commands
