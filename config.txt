@@ -1,0 +1,7 @@
+# Config
+OPENAI_KEY= your_open_api_key_here
+TOKEN= your_switchbot_token_here
+SECRET= your_switchbot_key_here
+BASE_PATH= your_base_path_of_this_project_here
+IP= your_host_ip_here
+PORT= your_host_port_here
