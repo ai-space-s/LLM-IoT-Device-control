@@ -16,7 +16,7 @@ def make_prompt(user_input_text, device_names):
 def make_report_prompt(user_input_text, llm_text, action_results, language):
     prompt = "ⓐ " + str(user_input_text) + "are the orders the user gave at the beginning. " + \
             "ⓑ " + str(llm_text) + " are the commands out of ⓐ which the home manager, your role, performed because of ⓐ. " + \
-            "ⓒ " + str(action_results) + " are the preformed results of ⓑ. " + \
+            "ⓒ " + str(action_results) + " are the performed results of ⓑ. " + \
             f"You are a home manager. Make a spoken report based on information ⓐ, ⓑ, ⓒ in {language} with polite manners. " + \
             "Within your report you need to clarify what orders are given, what the home manager did, and what the outcomes are."
 
